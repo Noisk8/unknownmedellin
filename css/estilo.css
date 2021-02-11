@@ -1,0 +1,64 @@
+body{
+    background-image: url(unknow.png);
+        
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    
+    color: wheat;
+}
+            
+nav a{
+  
+    color:white;
+    font-size:19px;
+      text-decoration: none;
+    } 
+    nav li{
+    display:inline-block;
+    padding:1px 5px;
+    color:#fff;
+    }
+
+
+    nav li:hover{
+   
+    color:#000;
+    }
+
+#menu
+{
+    
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    
+}
+
+#titulo
+{
+    
+    position: absolute;
+    left: 50%;
+}
